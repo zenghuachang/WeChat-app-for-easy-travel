@@ -1,0 +1,27 @@
+Page {
+  background: #f4f6f9;
+}
+::-webkit-scrollbar {
+  display: none;/*隐藏滚轮*/
+}
+
+/*不隐藏，查询其他城市的最右边点击后，显示没有占满宽度
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+text{
+    font-family: MicroSoft Yahei;
+    font-size: 24rpx;
+    color: #666;
+}
+
+input{
+    font-family: MicroSoft YaHei;
+}

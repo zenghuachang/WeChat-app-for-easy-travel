@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/weather/index/index",
+    "pages/weather/switchcity/switchcity",
+    "pages/map/index/index",
+    "pages/map/routes/routes",
+    "pages/map/info/info",
+    "pages/map/inputtip/inputtip",
+    "pages/lifeservice/map/map",
+    "pages/dietary/shop/index/index",
+    "pages/dietary/order/list/list",
+    "pages/dietary/category/list/list",
+    "pages/dietary/address/list/list",
+    "pages/dietary/food/list/list",
+    "pages/dietary/member/index/index",
+    "pages/dietary/food/add/add",
+    "pages/dietary/category/add/add",
+    "pages/dietary/shop/setting/setting",
+    "pages/dietary/order/remark/remark",
+    "pages/dietary/order/checkout/checkout",
+    "pages/dietary/address/add/add",
+    "pages/dietary/address/search/search",
+    "pages/dietary/order/detail/detail"
+  ],
+
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#40a7e7",
+    "navigationBarTitleText": "Simple Travel",
+    "navigationBarTextStyle": "light"
+  },
+
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#4D8AD7",
+    "list": [
+      {
+        "pagePath": "pages/weather/index/index",
+        "text": "天气",
+        "iconPath": "/images/map/weather2.png",
+        "selectedIconPath": "/images/map/weather1.png"
+      },
+      {
+        "pagePath": "pages/map/index/index",
+        "text": "地图",
+        "iconPath": "/images/map/map2.png",
+        "selectedIconPath": "/images/map/map1.png"
+      },
+      {
+        "pagePath": "pages/lifeservice/map/map",
+        "text": "生活服务",
+        "iconPath": "/images/map/map2.png",
+        "selectedIconPath": "/images/map/map1.png"
+      },{
+        "pagePath": "pages/dietary/shop/index/index",
+        "iconPath": "/images/dietary/icon_home.png",
+        "selectedIconPath": "/images/dietary/icon_home_selected.png",
+        "text": "外卖"
+      },
+      {
+        "pagePath": "pages/dietary/member/index/index",
+        "iconPath": "/images/dietary/icon_member.png",
+        "selectedIconPath": "/images/dietary/icon_member_selected.png",
+        "text": "我的"
+      }
+
+    ]
+  },
+  "networkTimeout": {
+    "request": 15000
+  }
+}

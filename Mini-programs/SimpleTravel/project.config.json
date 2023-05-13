@@ -1,0 +1,42 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"appid": "wx2759bc699339cd0c",
+	"projectname": "simpleOut",
+	"libVersion": "2.2.5",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide"
+				}
+			]
+		}
+	}
+}
